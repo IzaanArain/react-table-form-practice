@@ -22,7 +22,8 @@ const handleChange=(e)=>{
 
 const handleSubmit = (event) => {
   event.preventDefault();
-  setUserData((prevUsers) => [...prevUsers, newUser]);
+  setUserData([...userData,newUser])
+  // setUserData((prevUsers) => [...prevUsers, newUser]);
   // setNewUser({ name: '', age: '', email: '' });
 };
 

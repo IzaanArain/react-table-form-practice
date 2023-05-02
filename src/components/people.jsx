@@ -1,3 +1,9 @@
+
+let num=()=>{
+  return Math.floor(Math.round(Math.random()*100))
+}
+
+
 export const user = {
   id: 0,
   fname: "",
